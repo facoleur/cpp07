@@ -42,6 +42,11 @@ int main(int, char const **) {
 
   std::cout << "p1.name: " << p1.name << std::endl;
   std::cout << "p2.name: " << p2.name << std::endl;
+
+  std::cout << "---" << std::endl;
+
+  std::cout << "min p1, p2: " << min(p1, p2).name << std::endl;
+  std::cout << "max p1, p2: " << max(p1, p2).name << std::endl;
   return 0;
 }
 
